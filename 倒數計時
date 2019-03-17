@@ -1,0 +1,14 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+int c;//宣告 
+cin>>c;//輸入 
+while(c>0)//當C大於0 重複執行 
+{cout<<c<<" ";//輸出C 數字之間空格 
+c--;//C連續減1 
+}
+cout<<"0";//最後輸出0 
+}
